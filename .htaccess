@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /MEDIATHEQUE/
+
+# Ne pas réécrire les fichiers/dossiers existants
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Tout le reste vers index.php (router principal)
+RewriteRule ^ index.php [L]

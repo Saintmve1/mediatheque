@@ -1,0 +1,22 @@
+# Fichiers sensibles
+/config/db.php
+
+# Dossiers temporaires / cache
+/vendor/
+/node_modules/
+/tmp/
+/logs/
+/.DS_Store
+/.vscode/
+/xampp/
+/*.log
+*.bak
+*.swp
+Thumbs.db
+
+# Fichiers de base de données locaux
+*.sql
+*.sql.bak
+
+# Autres
+.idea/
